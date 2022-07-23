@@ -1,0 +1,35 @@
+{
+    "cards": [
+        {
+            "img" : "img/icons/Icon1.png",
+            "title": "Development",
+            "description": "Create a platform with the best and coolest quality from us."
+        },
+        {
+            "img" : "img/icons/Icon2.png",
+            "title": "UI/UX Designer",
+            "description": "We provide UI/UX Design services, and of course with the best quality"
+        },
+        {
+            "img" : "img/icons/Icon3.png",
+            "title": "Graphik Designer",
+            "description": "We provide Graphic Design services, with the best designers"
+        },
+        {
+            "img" : "img/icons/Icon4.png",
+            "title": "Motion Graphik",
+            "description": "Create a platform with the best and coolest quality from us."
+        },
+        {
+            "img" : "img/icons/Icon5.png",
+            "title": "traking",
+            "description": "Create a platform with the best and coolest quality from us."
+        },
+        {
+            "img" : "img/icons/Icon6.png",
+            "title": "building",
+            "description": "Create a platform with the best and coolest quality from us."
+        }
+
+      ]
+}
