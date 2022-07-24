@@ -397,6 +397,24 @@ color: #ffffffb3;
     }
 }
 
+@media (max-width:1140px) {
+    .services-cards {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .media-video frame{
+       margin: 0;
+    }
+
+    .media-description {
+        max-width: 1000px;
+    }
+
+    .media-description h2 {
+        max-width: 500px;
+    }
+}
 
 @media (max-width:1100px) {
     .nav-menu ul {
