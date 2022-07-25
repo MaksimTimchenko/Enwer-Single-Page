@@ -31,7 +31,7 @@ background: linear-gradient(265deg, rgba(29,29,29,1) 0%, rgba(74,76,78,1) 72%); 
 }
 
 header {
-    
+    z-index: 1000;
     width: 100%;
     position: fixed;
     top: 0;
@@ -282,6 +282,41 @@ color: #ffffffb3;
     letter-spacing: -0.500211px;
     color: #ffffffb3;
 }
+.portfolio {
+    z-index: 0;
+}
+
+.portfolio-title {
+    margin-top: 170px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 79px;
+    color: #FFFFFF;
+}
+
+.image-slider {
+    margin-top: 70px;
+    /* width: 1400px; */
+    overflow-x: hidden;
+}
+
+
+
+.slide-wrapper img {
+    width: 330px;
+    height: 250px;
+    border: 15px solid #1E1E20;
+    border-radius:14px;
+
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    top: 3250px;
+}
+
+
 
 
 @media (max-width:767px){

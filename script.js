@@ -47,5 +47,18 @@ fetch('http://localhost:3000/cards')
         });
     });
 
+//slider 
 
+new Swiper('.image-slider', {
+    pagination: {
+        el: '.swiper-pagination',
+        
+        clickable: true 
+      },
+
+    spaceBetween :-800,
+    loop: true,
+    loopedSlides: 3,
+   
+});
 
